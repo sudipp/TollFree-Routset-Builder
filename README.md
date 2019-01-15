@@ -9,3 +9,5 @@
 5) Generate XML from drawing canvas, so it can be persisted
 6) Populate Tollfree Routing tree from XML.
 7) Graphics build with Yahoo toolkit
+
+<img src="tollfree-route-builder.gif" />
