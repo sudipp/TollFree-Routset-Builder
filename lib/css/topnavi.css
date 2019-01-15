@@ -1,0 +1,67 @@
+#logo{background-image:url(../graphics/logo.gif); background-repeat:no-repeat; height:67px; width:200px;  }
+#geniricLink { font-size: 10px; color:#545751;  background-color:#f4f5eb; border:0px; font-weight:bold; text-align:right; padding-right:15px; }
+#geniricLink span{ font-size: 11px; color:#e1393e;  background-color:#f4f5eb; border:0px; font-weight:bold; text-align:right;  }
+#geniricLink a{  color:#e1393e;   font-size:11px; margin:5px;}
+.mainMenuBg{ background-color:#f4f5eb; border:0px; padding:0px; vertical-align:bottom;}
+ #mainMenu ul {
+    margin:0;
+    padding:0;
+    list-style:none;
+	margin-left:100px;
+    }
+
+	#mainMenu li{
+    float:left;
+	background:url("../graphics/norm_right1.gif") right top;
+	background-repeat:no-repeat ;
+    margin:0;
+	padding:0;
+    }
+
+   #mainMenu li.onOver {
+       background-image:url("../graphics/norm_right_on.gif");
+       }
+
+   #mainMenu li.onOut {
+       background:url("../graphics/norm_right1.gif") right top;
+       }
+
+   #mainMenu a{
+    display:block;
+    background:url("../graphics/norm_left1.gif") no-repeat left top;
+    padding:5px 15px;
+	text-decoration:none;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#1e1e0b;
+
+	
+    }
+
+#mainMenu #selcted{
+   
+   background:url("../graphics/norm_right_on.gif") right top;
+   background-repeat:no-repeat ;
+   border-bottom:1px solid #F9F9F1;
+   color:#e1393e;
+   }
+  #mainMenu #selcted a{
+    
+	background:url("../graphics/norm_left_on.gif") left top;
+	background-repeat:no-repeat ;
+    color:#e1393e;
+    }
+
+
+
+  #mainMenu a.onOver {
+    background-image:url("../graphics/norm_left_on.gif"); color:#e1393e;
+    }
+
+  #mainMenu a.onOut {
+    background:url("../graphics/norm_left1.gif") no-repeat left top;
+    }
+
+#sublinks{background-image:url(../graphics/subnaviBg.gif); border-top:1px solid #b3b6b0;  border-bottom:1px solid #b3b6b0;color:#e1393e; padding-top:9px; height:35px;  font-weight:bold;  color:#000000;}
+#sublinks a{ text-decoration:none; /*color:#e1393e;*/  padding:5px; margin-left:5px; text-indent:10px; color:#000000;}
+#sublinks #SubSelected {color:#e1393e;}

@@ -1,0 +1,36 @@
+
+.SPLearning-timepickercontainer {
+	float:left;
+	padding:2px;
+	background-color:#F7F9FB;
+	border:1px solid #7B9EBD;
+}
+
+.SPLearning-timepickeritemcontainer
+{
+	font-family: Arial;
+	/*FONT-SIZE:8pt;*/
+	overflow : auto;
+}
+
+.SPLearning-timepickeritem {
+	border-bottom:1px solid #E0E0E0;
+	background-color:#FFF;
+	color:#003DB8;
+	cursor:pointer;	
+}
+
+.SPLearning-timepickeritemhover 
+{
+	cursor:pointer;
+	color:#FFF;
+	background-color:#FF9900;
+	border:1px solid #FF9900;
+}
+
+.SPLearning-timepickeritemselected {
+	cursor:pointer;
+	color:#000;
+	background-color:#FFF19F;
+	border:1px solid #FF9900;	
+}

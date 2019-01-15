@@ -1,0 +1,10 @@
+/* CSS Document */
+
+.editText
+{
+	display:block;
+	width:500px;
+	height:50px;
+	border :1px solid #CDCDCD;
+    padding :2px;
+}

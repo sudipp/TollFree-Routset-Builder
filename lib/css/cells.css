@@ -1,0 +1,42 @@
+#ContentArea{ padding-right:7px; padding-left:7px;}
+#Contenter{ padding:12px; border:0px;}
+.BorderCellpadding{padding:12px; border:1px solid #b3b6b0;}
+.noBorderCell{padding:0px; border:0px;}
+.divider{padding:0px; border:0px; width:2px; background-color: #f4f5eb;}
+#boderCell{ border:1px solid #b3b6b0; padding:5px;}
+#boderCell img{ padding:2px;}
+#boderCell a{ text-decoration:none; }
+#boderCell td{ /*border-bottom:1px solid #e5e5e5; border-right:0px;*/  border:0px;}
+
+.leftNaviBoder{ border:1px solid #b3b6b0; padding:5px; background-color:#f4f5eb; }
+.rightNaviBoder{ border:1px solid #b3b6b0; padding:5px; background-color:#f4f5eb;}
+.middleContentBoder{ border:1px solid #b3b6b0; padding:0px; border-top:0px; }
+.middleContentBoder1{ border:1px solid #b3b6b0; padding:0px;}
+
+.highlightCbox{ background-color:#cfe4bb;}
+.spacer{padding:0px; border:0px; height:3px; background-color:#f4f5eb;}
+.spacer1{padding:0px; border:0px; height:5px;}
+.bgcolour{background-color:#f4f5eb;  border:0px; padding:0px;/*border:1px solid #b3b6b0; padding:2px;*/}
+.leftboder{ border:0px;border-left:1pt solid #e5e5e5; padding:0px;}
+#TArea{border:1px solid #dddddd; border-left:1px solid #808080;  border-top:1px solid #808080; height:50px; width:600px; text-align:left; font-weight:bold; color:#545751; text-indent:5px;}
+.rightAligh{text-align:right;}
+.leftTopboder{ border-left:1pt solid #DDDDDD;	border-top:1pt solid #DDDDDD; padding:0px; border-bottom:0px; border-right:0px; }
+.whiteSpacer{ border:0px; height:10px; }
+.confirmation{ color:#e1393e; font-size:12px; font-weight:bold; border:0px; }
+.copyright{text-align:left; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px; margin-top:7px; border:0px; text-indent:7px; background-color:#f4f5eb;}
+.pageNation{text-align:right; border:0px; height:25px; vertical-align:middle; padding:5px; } 
+
+.prabhu{width:20%}
+.prabhu1{width:65%}
+.prabhu2
+{
+	background-color:#f7f7f7;
+	font-weight:bold;
+	text-align:left;
+	color:#2d302a;
+	font-size:10px;
+	text-indent:5px;
+	width:15%;
+}
+
+Td.alertHeading{background-color:#e1393e; text-indent:2px; color:#FFFFFF; font-weight:bold;}

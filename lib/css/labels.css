@@ -1,0 +1,84 @@
+.boldtext{font-weight:bold;}
+.sidelinksHeader{background-image:url(../graphics/LinkHeader.gif); height:26px; color:#e1383d;  font-weight:bold; vertical-align:middle; text-indent:5px; font-size:11px; font-variant:small-caps; letter-spacing:.1em; border-top:1px solid #d5d7cf; border-bottom:1px solid #b3b6b0; border-left:1px solid #b3b6b0; border-right:1px solid #b3b6b0;}
+
+.heading
+{color:#555a50; 
+font-size:11px; 
+font-weight:bold;
+/*border-right:0px;*/
+color:#e1393e;
+border:0px;
+font-variant:small-caps;
+font-size:16px;
+text-indent:2px;
+height:20px;
+
+
+}
+.tableHeader{
+/*background-image:url(../graphics/theaderIcon.gif); 
+background-repeat:no-repeat; */
+color:#7a7d77;
+font-size:11px; 
+font-weight:bold;
+vertical-align:middle;
+border:0px;
+font-size:10px;
+text-indent:2px;
+padding-bottom:12px;
+
+
+}
+
+.tabcontainerHeading{
+/*background-image:url(../graphics/ConainerHeader.gif);
+background-image:url(../graphics/LinkHeader.gif);*/
+background-image:url(../graphics/ConainerHeader1.gif);
+color:#000000;
+font-size:14px; 
+font-weight:bold;
+vertical-align:middle;
+font-variant:small-caps;
+border:1px solid #c5ccdc;
+border-bottom:0px;
+height:23px;
+text-indent:5px;
+vertical-align:middle;
+}
+
+.tabcontainer{
+border:1px solid #c8c5c5;
+background-color:#c5ccdc;
+padding:5px;
+}
+
+.containerSpacer{height:5px;background-color:#c5ccdc;}
+
+#ScrolDiv{height:100px; overflow:auto; width:100%;  overflow-x:none;}
+#ScrolDiv td{ border-bottom:1px solid #DDDDD;  border-top:0px;   border-right:1px solid #DDDDD;;  border-left:0px;}
+#ScrolDiv1{height:150px; overflow:auto; width:100%; }
+.Headering{
+background-image:url(../graphics/theaderIBg.gif);
+color:#2d2b2b;
+font-size:12px; 
+font-weight:bold;
+vertical-align:middle;
+font-variant:small-caps;
+border:1px solid #cccccc;
+height:23px;
+text-indent:5px;
+vertical-align:middle;
+}
+
+.lable1
+{
+background-color:#f7f7f7;
+font-weight:bold;
+text-align:left;
+color:#2d302a;
+font-size:10px;
+text-indent:5px;
+}
+.redBoldtext{ color:#FF0000; font-weight:bold; font-size:18px; font-family:"Courier New", Courier, mono;}
+.redbgtext{ background-color:#f9c3dd;}
+.mandatoryText{ color:#FF0000; text-align:right; vertical-align:bottom;  border-right:0px;}

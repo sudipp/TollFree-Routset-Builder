@@ -1,0 +1,127 @@
+/* CSS Document */
+BODY {
+	margin: 0px;
+	background-color: #f4f5eb;
+	text-align: left;
+	scrollbar-base-color: #EFEFEF;
+	scrollbar-arrow-color: #000000;
+	scrollbar-track-color:	#EFEFEF;
+	scrollbar-3dlight-color: #CCCCCC;
+	scrollbar-highlight-color: #FFFFFF;
+	scrollbar-darkshadow-color: #666666;
+	scrollbar-shadow-color: #CCCCCC;
+	scrollbar-face-color: #EFEFEF;
+	border: none;
+}
+
+TABLE{
+background-color: #FFFFFF;
+}
+
+TD {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 20px;
+	border:1pt solid #DDDDDD;
+    /*border-bottom:1pt solid #DDDDDD;
+	border-right:1pt solid #DDDDDD;*/
+	vertical-align: top;
+	padding: 2px;
+	text-align: left;
+
+
+
+}
+
+TH
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color:#f4f5eb;
+	font-size: 11px;
+	line-height: 20px;
+   	vertical-align: top;
+	padding: 2px;
+	text-align: left;
+	border-bottom:1pt solid #DDDDDD;
+	border-right:1pt solid #DDDDDD;
+	text-indent:5px;
+
+}
+
+SELECT {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 10px;
+	text-align: left;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+}
+
+TEXTAREA {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 15px;
+	text-align: left;
+	vertical-align: top;
+	scrollbar-base-color: #EFEFEF;
+	scrollbar-arrow-color: #000000;
+	scrollbar-track-color:	#EFEFEF;
+	scrollbar-3dlight-color: #CCCCCC;
+	scrollbar-highlight-color: #FFFFFF;
+	scrollbar-darkshadow-color: #666666;
+	scrollbar-shadow-color: #CCCCCC;
+	scrollbar-face-color: #EFEFEF;
+	background-color: #FFFFFF;
+}
+
+INPUT {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height:10px;
+	height:18px;
+
+	
+}
+
+IFRAME {
+	padding: 0px;
+	border: 1px solid #EFEFEF;
+	scrollbar-base-color: #EFEFEF;
+	scrollbar-arrow-color: #000000;
+	scrollbar-track-color:	#EFEFEF;
+	scrollbar-3dlight-color: #CCCCCC;
+	scrollbar-highlight-color: #FFFFFF;
+	scrollbar-darkshadow-color: #666666;
+	scrollbar-shadow-color: #CCCCCC;
+	scrollbar-face-color: #EFEFEF;
+}
+
+a:link, a:visited, a:active {
+	color: #4f544b;
+	text-decoration:underline;
+	font-weight: bold;
+}
+
+a:hover {
+	color:#e1393e;
+	text-decoration: underline;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #CCCCCC;
+	border-right-color: #CCCCCC;
+	border-bottom-color: #CCCCCC;
+	border-left-color: #CCCCCC;
+	font-weight: bold;
+}
+
+
+
+
+

@@ -1,0 +1,139 @@
+<html>
+	<head>
+		<title>iTolls</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    
+        <link href="Yahoo/css/reset.css" type="text/css" rel="stylesheet">
+        <link href="Yahoo/css/menu.css" type="text/css" rel="stylesheet">
+        <link href="Yahoo/css/container.css" type="text/css" rel="stylesheet">
+        <link href="Yahoo/css/calendar.css" type="text/css" rel="stylesheet">
+        <link href="Yahoo/css/check/tree.css" type="text/css" rel="stylesheet">
+        <link href="Yahoo/css/screen.css" type="text/css" rel="stylesheet">
+
+        <link href="lib/css/generic.css" type="text/css" rel="stylesheet">
+        <link href="lib/css/topnavi.css" type="text/css" rel="stylesheet">
+        <link href="lib/css/buttons.css" type="text/css" rel="stylesheet">
+        <link href="lib/css/labels.css" type="text/css" rel="stylesheet">
+        <link href="lib/css/cells.css" type="text/css" rel="stylesheet">        
+        <link href="lib/css/instantedit.css" type="text/css" rel="stylesheet">
+        <link href="lib/css/TextCombo.css" type="text/css" rel="stylesheet">
+        <link href="lib/css/TimePicker.css" type="text/css" rel="stylesheet">
+        <link href="lib/css/ETable.css" type="text/css" rel="stylesheet">
+        <link href="lib/css/graphics.css" type="text/css" rel="stylesheet">
+
+        
+        <script type="text/javascript" src="yahoo/js/yahoo.js"></script>
+        <script type="text/javascript" src="yahoo/js/event.js"></script>
+        <script type="text/javascript" src="yahoo/js/dom.js"></script>
+        <script type="text/javascript" src="yahoo/js/dragdrop.js"></script>
+        <script type="text/javascript" src="yahoo/js/container.js"></script>
+        <script type="text/javascript" src="yahoo/js/menu.js"></script>
+        <script type="text/javascript" src="yahoo/js/animation.js"></script>
+        <script type="text/javascript" src="yahoo/js/calendar.js"></script>
+        <script type="text/javascript" src="yahoo/js/treeview.js"></script>
+        <script type="text/javascript" src="yahoo/js/TaskNode.js"></script>
+
+
+        <script type="text/javascript" src="lib/js/SPLearning.js"></script>
+        <script type="text/javascript" src="lib/js/wz_jsgraphics.js"></script>
+        <script type="text/javascript" src="lib/js/instantedit.js"></script>
+        <script type="text/javascript" src="lib/js/SPLearning.DDPlayer.js"></script>
+        <script type="text/javascript" src="lib/js/SPLearning.DDPlayer.ContextMenu.js"></script>
+        <script type="text/javascript" src="lib/js/SPLearning.DropRouteSetObj.js"></script>
+        <script type="text/javascript" src="lib/js/SPLearning.graphics.js"></script>
+        <script type="text/javascript" src="lib/js/SPLearning.TimePicker.js"></script>
+        <script type="text/javascript" src="lib/js/SPLearning.ETableRow.js"></script>
+        <script type="text/javascript" src="lib/js/SPLearning.ControlDataValid.js"></script>
+        <script type="text/javascript" src="lib/js/SPLearning.TextCombo.js"></script>
+        <script type="text/javascript" src="lib/js/SPLearning.RsXMLParser.js"></script>
+        <script type="text/javascript" src="lib/js/tollfreeno/basicenhanced.js"></script>
+	</head>
+	<body>
+		<table height="100%" cellSpacing="0" cellPadding="0" width="100%" border="0">
+			<tr>
+				<td class="leftNaviBoder" width="20%">
+					<table id="Table1" height="20%" cellSpacing="0" cellPadding="0" width="100%" border="0">
+						<tr>
+							<td class="spacer1"></td>
+						</tr>
+						<tr>
+							<td class="sidelinksHeader">Object Palette</td>
+						</tr>
+						<tr>
+							<td class="spacer"></td>
+						</tr>
+						<tr>
+							<td id="boderCell">
+								<!--Left panel for Palette and Lists //-->
+								<div id="leftPanel" style="WIDTH: 100%; HEIGHT: 100%" align="center">
+									<div id="ObjPalette" style="WIDTH: 100%; POSITION: relative; HEIGHT: 100%"></div>
+								</div>
+							</td>
+						</tr>
+					</table>
+					
+				</td>
+				<td class="middleContentBoder" width="80%">
+					<table cellSpacing="0" cellPadding="0" width="100%" border="0">
+						<tr>
+							<td id="Contenter">
+								<table cellSpacing="0" cellPadding="0" width="100%" border="0">
+									<TBODY>
+										<tr>
+											<td class="tabcontainer" colSpan="2">
+												<table cellSpacing="0" cellPadding="0" width="100%">													
+													<TR>
+														<TD>
+															<!--Canvas Scroller//-->
+															<div id="_CanvasScroller_" style="OVERFLOW: auto; WIDTH: 100%; POSITION: relative; HEIGHT: 450px; BACKGROUND-COLOR: white;">
+																<!--Canvas//-->
+																<div class="SPLearning-graphics" id="_RoutesetCanvas_" style="WIDTH: 100%; POSITION: absolute; HEIGHT: 100%;">
+																	<!--Layer for drawing grids, immediately after the end of TAG, Draw the grids //-->
+																	<div id="_RoutesetCanvasGrid_" style="LEFT: 0px; WIDTH: 100%; TOP: 0px; HEIGHT: 100%"></div>
+																</div>
+																<script language="javascript">																
+																	var slots = [];
+																	var players = [];	
+																	var tcd=null;
+																	var rsxml=null;
+																	var gr=null;
+																	function buildRsCanvas()
+																	{																				
+																		//////////////////////////////////////////////////////
+																		tcd=new SPLearning.TextComboList();
+																		for (var i=0; i<6;i++)
+																		{	tcd.insertDestinationData(i , "destination " +i);
+																			tcd.insertDecisionData(i , "decision " +i);
+																		}
+																		//////////////////////////////////////////////////////
+																		rsxml=new SPLearning.RSXMLTree();
+																		gr=new SPLearning.Graphics(_RoutesetCanvasGrid_);
+																		gr.createRSObjPalette(ObjPalette);	
+																		//SPLearning.screenLayout.BasicEnhancedTollfree.prototype.setDate(YAHOO.util.Dom.get(__txtCreationDate),new Date());
+																	}
+																	
+																	function getXML(){
+																		alert(rsxml.generateXMLStream());
+																	}
+																	
+																	YAHOO.util.Event.addListener(window, "load", buildRsCanvas);	
+																</script>
+															</div>
+														</TD>
+													</TR>
+													<TR>
+														<TD><INPUT class="primaryButton" onclick="javascript:getXML()" type="button" value="GetXML" name="Submit"></TD>
+													</TR>
+												</table>
+											</td>
+										</tr>
+									</TBODY>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

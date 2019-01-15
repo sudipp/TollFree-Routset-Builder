@@ -1,0 +1,58 @@
+
+.SPLearning-TextComboPanel
+{
+	/*font-family: Arial;
+	FONT-SIZE:8pt;*/
+	font: normal 10px verdana sans-serif;
+	FONT-SIZE:9px;
+	font-weight:normal;
+	padding : 0px;
+	overflow : hidden;
+	border : 1px solid #7B9EBD;
+	background-color :#F7F9FB;
+	position:absolute; 
+}
+.SPLearning-TextComboTxtSearch , .SPLearning-TextComboListPanel 
+{
+	/*font-family: Arial;
+	font-size: 10px;
+	*/
+	font: normal 10px verdana sans-serif;
+	border : solid 0px #7B9CBD;
+	width : 100%;	
+	padding-left:1px;
+	overflow : auto;
+}
+
+.SPLearning-TextComboListPanel  
+{
+	padding : 1px;
+	border-top:solid 1px #7B9EBD;	
+}
+
+.SPLearning-TextComboitem {
+	border-bottom:1px solid #E0E0E0;
+	background-color:#FFF;
+	color:#003DB8;
+	cursor:pointer;	
+}
+
+.SPLearning-TextComboitemhover 
+{
+	cursor:pointer;
+	color:#FFF;
+	background-color:#FF9900;
+	border:1px solid #FF9900;
+}
+
+.txtSearch A, .SPLearning-TextComboListPanel A{
+	TEXT-DECORATION: none;	
+	color:#000000; 
+	margin:3px;
+}
+
+.txtSearch A:hover, .SPLearning-TextComboListPanel A:hover 
+{
+	color:#000000; 
+	BACKGROUND-COLOR: #ffff95;
+}
